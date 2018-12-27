@@ -17,7 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.oneView.backgroundColor = [UIColor whiteColor];
 }
-
+-(CustomOneView *)oneView{
+    if (!_oneView) {
+        _oneView = [[CustomOneView alloc]initWithFrame:self.view.bounds];
+        [self.view addSubview:_oneView];
+    }
+    return _oneView;
+}
 
 @end

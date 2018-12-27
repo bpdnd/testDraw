@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CustomOneView.h"
 @interface ViewController : UIViewController
-
+@property(nonatomic,strong) CustomOneView *oneView;
 
 @end
 

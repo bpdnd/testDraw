@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8487491721D4CD1D00CE3F76 /* CustomOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487491621D4CD1D00CE3F76 /* CustomOneView.m */; };
 		8489900B21D0759200B1807C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489900A21D0759200B1807C /* AppDelegate.m */; };
 		8489900E21D0759200B1807C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489900D21D0759200B1807C /* ViewController.m */; };
 		8489901121D0759200B1807C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8489900F21D0759200B1807C /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8487491521D4CD1D00CE3F76 /* CustomOneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomOneView.h; sourceTree = "<group>"; };
+		8487491621D4CD1D00CE3F76 /* CustomOneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOneView.m; sourceTree = "<group>"; };
 		8489900621D0759200B1807C /* testDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8489900921D0759200B1807C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8489900A21D0759200B1807C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				8489900A21D0759200B1807C /* AppDelegate.m */,
 				8489900C21D0759200B1807C /* ViewController.h */,
 				8489900D21D0759200B1807C /* ViewController.m */,
+				8487491521D4CD1D00CE3F76 /* CustomOneView.h */,
+				8487491621D4CD1D00CE3F76 /* CustomOneView.m */,
 				8489900F21D0759200B1807C /* Main.storyboard */,
 				8489901221D0759C00B1807C /* Assets.xcassets */,
 				8489901421D0759C00B1807C /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				8489900E21D0759200B1807C /* ViewController.m in Sources */,
 				8489901921D0759C00B1807C /* main.m in Sources */,
+				8487491721D4CD1D00CE3F76 /* CustomOneView.m in Sources */,
 				8489900B21D0759200B1807C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -444,7 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.erter.com.testDraw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,7 +467,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.erter.com.testDraw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
