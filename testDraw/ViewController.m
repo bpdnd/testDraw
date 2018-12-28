@@ -20,7 +20,7 @@ static NSString *cellId = @"cellRe";
     [self changeBackBtn];
     self.view.backgroundColor = [UIColor whiteColor];    
     self.tableView.backgroundColor = [UIColor whiteColor];
-    self.dataSource = [NSMutableArray arrayWithArray:@[@"基础_OneViewController",@"two_TwoViewController",@"截图_ThreeViewController"]];
+    self.dataSource = [NSMutableArray arrayWithArray:@[@"基础_OneViewController",@"two_TwoViewController",@"截图_ThreeViewController",@"UIBezierPath画图_FourViewController"]];
     [self.tableView reloadData];
     
 }

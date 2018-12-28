@@ -21,6 +21,12 @@
 		84CD129621D5A5AD002723EA /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD129521D5A5AD002723EA /* TwoViewController.m */; };
 		84CD129E21D5B055002723EA /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD129D21D5B055002723EA /* ThreeViewController.m */; };
 		84CD12A021D5B100002723EA /* base.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD129F21D5B100002723EA /* base.png */; };
+		84CD12E521D5CC6E002723EA /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD12E421D5CC6E002723EA /* FourViewController.m */; };
+		84CD12E821D5CCF2002723EA /* FourOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD12E721D5CCF2002723EA /* FourOneView.m */; };
+		84CD12EB21D5CE47002723EA /* FourTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD12EA21D5CE47002723EA /* FourTwoView.m */; };
+		84CD12EE21D5CF30002723EA /* FourThreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD12ED21D5CF30002723EA /* FourThreeView.m */; };
+		84CD12F121D5D03E002723EA /* FourFourView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD12F021D5D03E002723EA /* FourFourView.m */; };
+		84CD12F421D5F3F3002723EA /* FourFiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD12F321D5F3F3002723EA /* FourFiveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +74,18 @@
 		84CD129C21D5B055002723EA /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
 		84CD129D21D5B055002723EA /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 		84CD129F21D5B100002723EA /* base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base.png; sourceTree = "<group>"; };
+		84CD12E321D5CC6E002723EA /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		84CD12E421D5CC6E002723EA /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		84CD12E621D5CCF2002723EA /* FourOneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourOneView.h; sourceTree = "<group>"; };
+		84CD12E721D5CCF2002723EA /* FourOneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourOneView.m; sourceTree = "<group>"; };
+		84CD12E921D5CE47002723EA /* FourTwoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourTwoView.h; sourceTree = "<group>"; };
+		84CD12EA21D5CE47002723EA /* FourTwoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourTwoView.m; sourceTree = "<group>"; };
+		84CD12EC21D5CF30002723EA /* FourThreeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourThreeView.h; sourceTree = "<group>"; };
+		84CD12ED21D5CF30002723EA /* FourThreeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourThreeView.m; sourceTree = "<group>"; };
+		84CD12EF21D5D03E002723EA /* FourFourView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourFourView.h; sourceTree = "<group>"; };
+		84CD12F021D5D03E002723EA /* FourFourView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourFourView.m; sourceTree = "<group>"; };
+		84CD12F221D5F3F3002723EA /* FourFiveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourFiveView.h; sourceTree = "<group>"; };
+		84CD12F321D5F3F3002723EA /* FourFiveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourFiveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +140,7 @@
 				8489900A21D0759200B1807C /* AppDelegate.m */,
 				8489900C21D0759200B1807C /* ViewController.h */,
 				8489900D21D0759200B1807C /* ViewController.m */,
+				84CD12E221D5CC47002723EA /* four */,
 				84CD129A21D5B041002723EA /* three */,
 				84CD129721D5A6C7002723EA /* one */,
 				84CD129921D5A6DD002723EA /* two */,
@@ -182,6 +201,25 @@
 				84CD129D21D5B055002723EA /* ThreeViewController.m */,
 			);
 			path = three;
+			sourceTree = "<group>";
+		};
+		84CD12E221D5CC47002723EA /* four */ = {
+			isa = PBXGroup;
+			children = (
+				84CD12E321D5CC6E002723EA /* FourViewController.h */,
+				84CD12E421D5CC6E002723EA /* FourViewController.m */,
+				84CD12E621D5CCF2002723EA /* FourOneView.h */,
+				84CD12E721D5CCF2002723EA /* FourOneView.m */,
+				84CD12E921D5CE47002723EA /* FourTwoView.h */,
+				84CD12EA21D5CE47002723EA /* FourTwoView.m */,
+				84CD12EC21D5CF30002723EA /* FourThreeView.h */,
+				84CD12ED21D5CF30002723EA /* FourThreeView.m */,
+				84CD12EF21D5D03E002723EA /* FourFourView.h */,
+				84CD12F021D5D03E002723EA /* FourFourView.m */,
+				84CD12F221D5F3F3002723EA /* FourFiveView.h */,
+				84CD12F321D5F3F3002723EA /* FourFiveView.m */,
+			);
+			path = four;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,13 +354,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CD129621D5A5AD002723EA /* TwoViewController.m in Sources */,
+				84CD12EE21D5CF30002723EA /* FourThreeView.m in Sources */,
+				84CD12F421D5F3F3002723EA /* FourFiveView.m in Sources */,
 				8489900E21D0759200B1807C /* ViewController.m in Sources */,
 				84CD129021D5A2CA002723EA /* OneViewController.m in Sources */,
+				84CD12E521D5CC6E002723EA /* FourViewController.m in Sources */,
 				84CD129321D5A3D7002723EA /* UIViewController+Extend.m in Sources */,
 				8489901921D0759C00B1807C /* main.m in Sources */,
 				8487491721D4CD1D00CE3F76 /* CustomOneView.m in Sources */,
+				84CD12E821D5CCF2002723EA /* FourOneView.m in Sources */,
 				8489900B21D0759200B1807C /* AppDelegate.m in Sources */,
 				84CD129E21D5B055002723EA /* ThreeViewController.m in Sources */,
+				84CD12F121D5D03E002723EA /* FourFourView.m in Sources */,
+				84CD12EB21D5CE47002723EA /* FourTwoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
