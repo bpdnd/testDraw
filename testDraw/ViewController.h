@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomOneView.h"
-@interface ViewController : UIViewController
-@property(nonatomic,strong) CustomOneView *oneView;
+#import "UIViewController+Extend.h"
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@property(nonatomic,strong) UITableView *tableView;
+@property(nonatomic,strong) NSMutableArray *dataSource;
 
 @end
 

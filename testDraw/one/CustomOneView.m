@@ -16,6 +16,9 @@
 
 */
 - (void)drawRect:(CGRect)rect {
+    
+    //参考：https://www.cnblogs.com/wanghuaijun/p/5870699.html
+    
     //1 获取上下文
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     //--------实心圆
@@ -72,14 +75,21 @@
      CGContextClosePath(ctx);
      CGContextFillPath(ctx);
      */
-    
-    
     //--------文字
     NSString *str = @"你在红楼，我在西游";
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     dict[NSForegroundColorAttributeName] = [UIColor redColor]; // 文字颜色
     dict[NSFontAttributeName] = [UIFont systemFontOfSize:14]; // 字体
     [str drawInRect:CGRectMake(20, 250, 300, 30) withAttributes:dict];
+    
+    //---------虚线
+    CGContextMoveToPoint(ctx, 20, 300); //起点
+    CGContextAddLineToPoint(ctx, 200, 350); //终点
+    [[UIColor blackColor] set];
+    CGContextSetLineWidth(ctx, 2);
+    CGFloat lengths[] = {10,5};
+    CGContextSetLineDash(ctx, 2,lengths, 2);
+    CGContextStrokePath(ctx);
     
 }
 

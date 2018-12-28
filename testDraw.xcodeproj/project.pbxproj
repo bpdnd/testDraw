@@ -16,6 +16,11 @@
 		8489901921D0759C00B1807C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489901821D0759C00B1807C /* main.m */; };
 		8489902321D0759C00B1807C /* testDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489902221D0759C00B1807C /* testDrawTests.m */; };
 		8489902E21D0759C00B1807C /* testDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489902D21D0759C00B1807C /* testDrawUITests.m */; };
+		84CD129021D5A2CA002723EA /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD128F21D5A2CA002723EA /* OneViewController.m */; };
+		84CD129321D5A3D7002723EA /* UIViewController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD129221D5A3D7002723EA /* UIViewController+Extend.m */; };
+		84CD129621D5A5AD002723EA /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD129521D5A5AD002723EA /* TwoViewController.m */; };
+		84CD129E21D5B055002723EA /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD129D21D5B055002723EA /* ThreeViewController.m */; };
+		84CD12A021D5B100002723EA /* base.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD129F21D5B100002723EA /* base.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,15 @@
 		8489902921D0759C00B1807C /* testDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8489902D21D0759C00B1807C /* testDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDrawUITests.m; sourceTree = "<group>"; };
 		8489902F21D0759C00B1807C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD128E21D5A2CA002723EA /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		84CD128F21D5A2CA002723EA /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		84CD129121D5A3D7002723EA /* UIViewController+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extend.h"; sourceTree = "<group>"; };
+		84CD129221D5A3D7002723EA /* UIViewController+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extend.m"; sourceTree = "<group>"; };
+		84CD129421D5A5AD002723EA /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		84CD129521D5A5AD002723EA /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		84CD129C21D5B055002723EA /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		84CD129D21D5B055002723EA /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		84CD129F21D5B100002723EA /* base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +122,16 @@
 				8489900A21D0759200B1807C /* AppDelegate.m */,
 				8489900C21D0759200B1807C /* ViewController.h */,
 				8489900D21D0759200B1807C /* ViewController.m */,
-				8487491521D4CD1D00CE3F76 /* CustomOneView.h */,
-				8487491621D4CD1D00CE3F76 /* CustomOneView.m */,
+				84CD129A21D5B041002723EA /* three */,
+				84CD129721D5A6C7002723EA /* one */,
+				84CD129921D5A6DD002723EA /* two */,
 				8489900F21D0759200B1807C /* Main.storyboard */,
 				8489901221D0759C00B1807C /* Assets.xcassets */,
 				8489901421D0759C00B1807C /* LaunchScreen.storyboard */,
 				8489901721D0759C00B1807C /* Info.plist */,
 				8489901821D0759C00B1807C /* main.m */,
+				84CD129121D5A3D7002723EA /* UIViewController+Extend.h */,
+				84CD129221D5A3D7002723EA /* UIViewController+Extend.m */,
 			);
 			path = testDraw;
 			sourceTree = "<group>";
@@ -135,6 +152,36 @@
 				8489902F21D0759C00B1807C /* Info.plist */,
 			);
 			path = testDrawUITests;
+			sourceTree = "<group>";
+		};
+		84CD129721D5A6C7002723EA /* one */ = {
+			isa = PBXGroup;
+			children = (
+				84CD128E21D5A2CA002723EA /* OneViewController.h */,
+				84CD128F21D5A2CA002723EA /* OneViewController.m */,
+				8487491521D4CD1D00CE3F76 /* CustomOneView.h */,
+				8487491621D4CD1D00CE3F76 /* CustomOneView.m */,
+			);
+			path = one;
+			sourceTree = "<group>";
+		};
+		84CD129921D5A6DD002723EA /* two */ = {
+			isa = PBXGroup;
+			children = (
+				84CD129421D5A5AD002723EA /* TwoViewController.h */,
+				84CD129521D5A5AD002723EA /* TwoViewController.m */,
+			);
+			path = two;
+			sourceTree = "<group>";
+		};
+		84CD129A21D5B041002723EA /* three */ = {
+			isa = PBXGroup;
+			children = (
+				84CD129F21D5B100002723EA /* base.png */,
+				84CD129C21D5B055002723EA /* ThreeViewController.h */,
+				84CD129D21D5B055002723EA /* ThreeViewController.m */,
+			);
+			path = three;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +289,7 @@
 			files = (
 				8489901621D0759C00B1807C /* LaunchScreen.storyboard in Resources */,
 				8489901321D0759C00B1807C /* Assets.xcassets in Resources */,
+				84CD12A021D5B100002723EA /* base.png in Resources */,
 				8489901121D0759200B1807C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,10 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CD129621D5A5AD002723EA /* TwoViewController.m in Sources */,
 				8489900E21D0759200B1807C /* ViewController.m in Sources */,
+				84CD129021D5A2CA002723EA /* OneViewController.m in Sources */,
+				84CD129321D5A3D7002723EA /* UIViewController+Extend.m in Sources */,
 				8489901921D0759C00B1807C /* main.m in Sources */,
 				8487491721D4CD1D00CE3F76 /* CustomOneView.m in Sources */,
 				8489900B21D0759200B1807C /* AppDelegate.m in Sources */,
+				84CD129E21D5B055002723EA /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
