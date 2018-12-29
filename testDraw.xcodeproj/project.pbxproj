@@ -28,6 +28,7 @@
 		84CD12F121D5D03E002723EA /* FourFourView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD12F021D5D03E002723EA /* FourFourView.m */; };
 		84CD12F421D5F3F3002723EA /* FourFiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD12F321D5F3F3002723EA /* FourFiveView.m */; };
 		84CD12F821D5FA8C002723EA /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD12F721D5FA8C002723EA /* FiveViewController.m */; };
+		84FD2E4E21D77702007B27FB /* FiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD2E4D21D77702007B27FB /* FiveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		84CD12F321D5F3F3002723EA /* FourFiveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourFiveView.m; sourceTree = "<group>"; };
 		84CD12F621D5FA8C002723EA /* FiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
 		84CD12F721D5FA8C002723EA /* FiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		84FD2E4C21D77702007B27FB /* FiveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveView.h; sourceTree = "<group>"; };
+		84FD2E4D21D77702007B27FB /* FiveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +234,8 @@
 			children = (
 				84CD12F621D5FA8C002723EA /* FiveViewController.h */,
 				84CD12F721D5FA8C002723EA /* FiveViewController.m */,
+				84FD2E4C21D77702007B27FB /* FiveView.h */,
+				84FD2E4D21D77702007B27FB /* FiveView.m */,
 			);
 			path = five;
 			sourceTree = "<group>";
@@ -376,6 +381,7 @@
 				8489901921D0759C00B1807C /* main.m in Sources */,
 				8487491721D4CD1D00CE3F76 /* CustomOneView.m in Sources */,
 				84CD12F821D5FA8C002723EA /* FiveViewController.m in Sources */,
+				84FD2E4E21D77702007B27FB /* FiveView.m in Sources */,
 				84CD12E821D5CCF2002723EA /* FourOneView.m in Sources */,
 				8489900B21D0759200B1807C /* AppDelegate.m in Sources */,
 				84CD129E21D5B055002723EA /* ThreeViewController.m in Sources */,
@@ -554,6 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2L4B26T69J;
 				INFOPLIST_FILE = testDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,6 +578,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2L4B26T69J;
 				INFOPLIST_FILE = testDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

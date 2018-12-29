@@ -16,8 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     self.view.backgroundColor = [UIColor whiteColor];
     //参考：https://www.cnblogs.com/jaesun/p/iOS-CAShapeLayerUIBezierPath-hua-xian.html
+    [self changeBackBtn];
+    FiveView *fiveView = [[FiveView alloc]initWithFrame:CGRectMake(20, 20, 50, 50)];
+    fiveView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:fiveView];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

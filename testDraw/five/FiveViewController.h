@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "FiveView.h"
+#import "UIViewController+Extend.h"
 @interface FiveViewController : UIViewController
 
 @end
