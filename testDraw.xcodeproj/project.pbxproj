@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84202DFE21F00B610086410C /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84202DFD21F00B610086410C /* SixViewController.m */; };
+		84202E0121F00B780086410C /* SixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84202E0021F00B780086410C /* SixView.m */; };
 		8487491721D4CD1D00CE3F76 /* CustomOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487491621D4CD1D00CE3F76 /* CustomOneView.m */; };
 		8489900B21D0759200B1807C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489900A21D0759200B1807C /* AppDelegate.m */; };
 		8489900E21D0759200B1807C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489900D21D0759200B1807C /* ViewController.m */; };
@@ -49,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84202DFC21F00B610086410C /* SixViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		84202DFD21F00B610086410C /* SixViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
+		84202DFF21F00B780086410C /* SixView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixView.h; sourceTree = "<group>"; };
+		84202E0021F00B780086410C /* SixView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixView.m; sourceTree = "<group>"; };
 		8487491521D4CD1D00CE3F76 /* CustomOneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomOneView.h; sourceTree = "<group>"; };
 		8487491621D4CD1D00CE3F76 /* CustomOneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOneView.m; sourceTree = "<group>"; };
 		8489900621D0759200B1807C /* testDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +125,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84202DFB21F00B4D0086410C /* six */ = {
+			isa = PBXGroup;
+			children = (
+				84202DFC21F00B610086410C /* SixViewController.h */,
+				84202DFD21F00B610086410C /* SixViewController.m */,
+				84202DFF21F00B780086410C /* SixView.h */,
+				84202E0021F00B780086410C /* SixView.m */,
+			);
+			path = six;
+			sourceTree = "<group>";
+		};
 		84898FFD21D0759200B1807C = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +163,7 @@
 				8489900A21D0759200B1807C /* AppDelegate.m */,
 				8489900C21D0759200B1807C /* ViewController.h */,
 				8489900D21D0759200B1807C /* ViewController.m */,
+				84202DFB21F00B4D0086410C /* six */,
 				84CD12F521D5FA70002723EA /* five */,
 				84CD12E221D5CC47002723EA /* four */,
 				84CD129A21D5B041002723EA /* three */,
@@ -386,7 +404,9 @@
 				8489900B21D0759200B1807C /* AppDelegate.m in Sources */,
 				84CD129E21D5B055002723EA /* ThreeViewController.m in Sources */,
 				84CD12F121D5D03E002723EA /* FourFourView.m in Sources */,
+				84202DFE21F00B610086410C /* SixViewController.m in Sources */,
 				84CD12EB21D5CE47002723EA /* FourTwoView.m in Sources */,
+				84202E0121F00B780086410C /* SixView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,7 +580,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2L4B26T69J;
 				INFOPLIST_FILE = testDraw/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -578,7 +598,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2L4B26T69J;
 				INFOPLIST_FILE = testDraw/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
