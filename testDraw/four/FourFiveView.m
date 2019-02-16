@@ -18,7 +18,11 @@
 }
 */
 -(void)drawRect:(CGRect)rect{
-    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(75, 50) radius:30 startAngle:0 endAngle:M_PI/2 clockwise:YES];
+    
+    int all = 10+20+30;
+    // M_PI= 3.1415925
+    
+    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(75, 50) radius:30 startAngle:0 endAngle:M_PI*2*1/3 clockwise:YES];
     CGPoint center = CGPointMake(75, 50);
     //添加一根线到圆心
     [path addLineToPoint:center];
@@ -28,8 +32,9 @@
     //使用填充，默认就会自动关闭路径，（终点到起点）这样就可以不写[path closePath];
     [path fill];
     
+   
     /////
-    UIBezierPath *twoPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(75, 50) radius:20 startAngle:M_PI/2 endAngle:M_PI clockwise:YES];
+    UIBezierPath *twoPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(75, 50) radius:30 startAngle:M_PI*2*1/3 endAngle:M_PI*2*2/3 clockwise:YES];
     CGPoint twoCenter = CGPointMake(75, 50);
     [[UIColor redColor] setFill];
     //添加一根线到圆心
@@ -39,6 +44,20 @@
     [twoPath stroke];
     //使用填充，默认就会自动关闭路径，（终点到起点）这样就可以不写[path closePath];
     [twoPath fill];
+    
+    //
+    UIBezierPath *threePath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(75, 50) radius:30 startAngle:M_PI*2*2/3 endAngle:M_PI*2*3/3 clockwise:YES];
+    CGPoint threeCenter = CGPointMake(75, 50);
+    [[UIColor blueColor] setFill];
+    //添加一根线到圆心
+    [threePath addLineToPoint:threeCenter];
+    //关闭路径，是从终点到起点
+    [threePath closePath];
+    [threePath stroke];
+    //使用填充，默认就会自动关闭路径，（终点到起点）这样就可以不写[path closePath];
+    [threePath fill];
+    
+    
     
     
 }
